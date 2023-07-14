@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Routes>
  
-        <Route path='/' element={<GameBoard/>}>
+        <Route path='/tenzies' element={<GameBoard/>}>
 
         </Route>
         
