@@ -1,0 +1,66 @@
+body{
+  background-color: #0B2434;
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+}
+
+.gameboard-main{
+  background-color: #f5f5f5;
+  margin: 1em;
+  margin-top: 1em;
+  height: 60vh;
+  border-radius: 5px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.div-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 4 kolumner med lika stor bredd */
+  gap: 10px;
+  justify-items: center; /* Centrera horisontellt */
+  align-items: center;
+}
+.die{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-container p{
+  text-align: center;
+}
+.button-container button{
+  background-color: #5035FF;
+  padding: 1em 2em;
+  border-radius: 5px;
+  border: none;
+  color: #f5f5f5;
+  font-weight: 600;
+  font-family: 'Karla', sans-serif;
+  cursor: pointer;
+}
+.button-container button:focus{
+  outline: none;
+}
+.button-container button:active{
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+
+}
+.held{
+  background-color: #59E391;
+}
